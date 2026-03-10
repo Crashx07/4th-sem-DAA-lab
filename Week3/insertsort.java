@@ -9,7 +9,7 @@ class insertsort{
 		Result res = new Result();
 		int n = arr.length;
 
-		for(int i = 1, i < n; i++){
+		for(int i = 1; i < n; i++){
 			int key = arr[i];
 			int j = i-1;
 
@@ -52,4 +52,5 @@ class insertsort{
         }
         sc.close();
     }
+
 }
